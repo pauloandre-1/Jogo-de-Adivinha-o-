@@ -9,7 +9,7 @@ while True:
     try:
         num1 = int(input("Escolha um número: "))
     except ValueError:
-        print("Apenas números, burrão")
+        print("Apenas números Inteiros Positivos")
         continue
     tentativas+=1
     if num1 == numero_secreto:
